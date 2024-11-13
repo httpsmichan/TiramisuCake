@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
         Button signUpButton = findViewById(R.id.mainsgnbutton);
 
         loginButton.setOnClickListener(v -> {
-            // Navigate to Login Activity (if created, otherwise, adjust as needed)
+            
             startActivity(new Intent(MainActivity.this, login.class));
         });
 
         signUpButton.setOnClickListener(v -> {
-            // Navigate to Register Activity
+            
             startActivity(new Intent(MainActivity.this, register.class));
         });
     }
