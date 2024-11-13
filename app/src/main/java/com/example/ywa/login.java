@@ -20,7 +20,7 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login); // Make sure this matches your XML layout file name
+        setContentView(R.layout.activity_login); 
 
         auth = FirebaseAuth.getInstance();
 
@@ -53,10 +53,10 @@ public class login extends AppCompatActivity {
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         Toast.makeText(login.this, "Login successful", Toast.LENGTH_SHORT).show();
-                        // Redirect to the home screen or main activity
-                        Intent intent = new Intent(login.this, home.class); // MainActivity or Home Screen
+                        
+                        Intent intent = new Intent(login.this, home.class); 
                         startActivity(intent);
-                        finish(); // Close LoginActivity
+                        finish(); 
                     } else {
                         String errorMessage = task.getException() != null ? task.getException().getMessage() : "Login failed";
                         Toast.makeText(login.this, "Login failed: " + errorMessage, Toast.LENGTH_SHORT).show();
