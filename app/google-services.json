@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "536131549013",
+    "firebase_url": "https://cheesecake-51cc5-default-rtdb.firebaseio.com",
+    "project_id": "cheesecake-51cc5",
+    "storage_bucket": "cheesecake-51cc5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536131549013:android:e5d9a08199437358e7a1dc",
+        "android_client_info": {
+          "package_name": "com.example.plswork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5p1fWh0JfDF2SSg7Gk97MZ0pHPKLtGfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536131549013:android:6c3f1092f2800286e7a1dc",
+        "android_client_info": {
+          "package_name": "com.example.ywa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5p1fWh0JfDF2SSg7Gk97MZ0pHPKLtGfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
